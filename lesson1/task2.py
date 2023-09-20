@@ -2,14 +2,9 @@
 
 
 def dict_parser(dict_str: str):
-    str_split = [x.strip(":") for x in dict_str.split(" ")]
-    quantity = len(str_split)
-    if quantity % 2 != 0:
-        return
-    new_dict = {}
-    for i in range(0, quantity, 2):
-        new_dict[str_split[i]] = str_split[i + 1]
-    print(new_dict)
+    a = dict_str.split()
+    dictionary = {a[i].strip(":"): a[i + 1] for i in range(0, len(a), 2)}
+    print(dictionary)
 
 
 if __name__ == "__main__":
