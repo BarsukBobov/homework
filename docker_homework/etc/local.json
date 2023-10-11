@@ -1,0 +1,5 @@
+{
+  "db": {
+    "dsn": "postgresql://postgres:postgres@db/product_catalog_db"
+  }
+}
