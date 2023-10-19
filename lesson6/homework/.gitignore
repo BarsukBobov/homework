@@ -1,0 +1,7 @@
+venv
+.idea
+/storage
+.DS_Store
+.fleet
+.mypy_cache
+.pytest_cache

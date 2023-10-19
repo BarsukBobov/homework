@@ -1,0 +1,10 @@
+{
+  "debug": true,
+  "salt": "kapibara",
+  "db": {
+    "dsn": "postgresql://postgres:postgres@db/simple_http_server"
+  },
+  "redis": {
+    "dsn": "redis://redis"
+  }
+}
